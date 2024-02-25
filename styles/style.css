@@ -1,18 +1,18 @@
 /* Same style */
 body{
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
 }
 .primary-orange{
     color: #FD6E0A;
 }
-.button-1{
+.button{
     color: #FFFFFF;
     background-color: #FD6E0A;
     font-weight: bold;
     border: 0;
     border-radius: 5px;
     font-size: 20px;
+    padding: 15px 30px;
 }
 
 
@@ -43,17 +43,57 @@ nav ul{
     font-size: 45px;
     font-weight: 800;
 }
-.nav-button{
-    padding: 15px 30px;
+.cn-button{
+    color: #FD6E0A;
+    background-color: #FFFFFF;
+    border: 1px solid #FD6E0A;
 }
 .banner{
     display: flex;
     align-items: center;
-    padding-left: 150px;
+    padding: 0 31px 0 150px;
+    justify-content: space-between;
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .banner #profile-pic{
-    width: 400px;
+    margin-bottom: -4px;
+}
+.bntxh3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+.bntxh1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin: 0 0 20px 0;
+}
+.bntxp{
+    margin-bottom: 30px;
+    color: #757575;
+}
+.banner-text{
+    max-width: 500px;
+}
+
+
+/* main section---------- */
+/* about me */
+.am-h2{
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-me{
+    margin-top: 120px;
+    background-color: #FFF8F3;
+    padding: 50px;
 }
