@@ -1,0 +1,63 @@
+/* Same style */
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.primary-orange{
+    color: #FD6E0A;
+}
+.button-1{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+/* header-related-style */
+nav a{
+    color: #474747;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+nav>ul{
+    display: flex;
+}
+nav ul{
+    align-items: center;
+}
+.logo-name{
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-button{
+    padding: 15px 30px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner #profile-pic{
+    width: 400px;
+}
